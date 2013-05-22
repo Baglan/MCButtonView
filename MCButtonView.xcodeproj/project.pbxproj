@@ -18,6 +18,10 @@
 		86AEB68A174C73FE0019CB1E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AEB689174C73FE0019CB1E /* Default-568h@2x.png */; };
 		86AEB68D174C73FE0019CB1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AEB68C174C73FE0019CB1E /* ViewController.m */; };
 		86AEB690174C73FE0019CB1E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86AEB68E174C73FE0019CB1E /* ViewController.xib */; };
+		86AEB69D174C75CE0019CB1E /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AEB69B174C75CE0019CB1E /* button@2x.png */; };
+		86AEB69E174C75CE0019CB1E /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AEB69C174C75CE0019CB1E /* button.png */; };
+		86AEB6A1174C7BA60019CB1E /* MCButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AEB6A0174C7BA60019CB1E /* MCButtonView.m */; };
+		86AEB6A3174C7C470019CB1E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 86AEB6A2174C7C470019CB1E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,11 @@
 		86AEB68B174C73FE0019CB1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		86AEB68C174C73FE0019CB1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		86AEB68F174C73FE0019CB1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		86AEB69B174C75CE0019CB1E /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+		86AEB69C174C75CE0019CB1E /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		86AEB69F174C7BA60019CB1E /* MCButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCButtonView.h; path = Classes/MCButtonView.h; sourceTree = "<group>"; };
+		86AEB6A0174C7BA60019CB1E /* MCButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCButtonView.m; path = Classes/MCButtonView.m; sourceTree = "<group>"; };
+		86AEB6A2174C7C470019CB1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,8 @@
 		86AEB667174C73FD0019CB1E = {
 			isa = PBXGroup;
 			children = (
+				86AEB6A2174C7C470019CB1E /* README.md */,
+				86AEB696174C74090019CB1E /* Classes */,
 				86AEB679174C73FE0019CB1E /* MCButtonView */,
 				86AEB672174C73FD0019CB1E /* Frameworks */,
 				86AEB671174C73FD0019CB1E /* Products */,
@@ -83,6 +94,7 @@
 		86AEB679174C73FE0019CB1E /* MCButtonView */ = {
 			isa = PBXGroup;
 			children = (
+				86AEB69A174C75C50019CB1E /* Assets */,
 				86AEB682174C73FE0019CB1E /* AppDelegate.h */,
 				86AEB683174C73FE0019CB1E /* AppDelegate.m */,
 				86AEB68B174C73FE0019CB1E /* ViewController.h */,
@@ -105,6 +117,24 @@
 				86AEB689174C73FE0019CB1E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86AEB696174C74090019CB1E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				86AEB69F174C7BA60019CB1E /* MCButtonView.h */,
+				86AEB6A0174C7BA60019CB1E /* MCButtonView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		86AEB69A174C75C50019CB1E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				86AEB69B174C75CE0019CB1E /* button@2x.png */,
+				86AEB69C174C75CE0019CB1E /* button.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +193,9 @@
 				86AEB688174C73FE0019CB1E /* Default@2x.png in Resources */,
 				86AEB68A174C73FE0019CB1E /* Default-568h@2x.png in Resources */,
 				86AEB690174C73FE0019CB1E /* ViewController.xib in Resources */,
+				86AEB69D174C75CE0019CB1E /* button@2x.png in Resources */,
+				86AEB69E174C75CE0019CB1E /* button.png in Resources */,
+				86AEB6A3174C7C470019CB1E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +209,7 @@
 				86AEB680174C73FE0019CB1E /* main.m in Sources */,
 				86AEB684174C73FE0019CB1E /* AppDelegate.m in Sources */,
 				86AEB68D174C73FE0019CB1E /* ViewController.m in Sources */,
+				86AEB6A1174C7BA60019CB1E /* MCButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +297,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCButtonView/MCButtonView-Prefix.pch";
 				INFOPLIST_FILE = "MCButtonView/MCButtonView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +309,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCButtonView/MCButtonView-Prefix.pch";
 				INFOPLIST_FILE = "MCButtonView/MCButtonView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
