@@ -16,4 +16,4 @@ Create a custom "button" using the visual interface builder in Xcode or by some 
 
 ## License
 
-All the code and assets are available undet the MIT license.
+All the code and assets are available under the MIT license.
