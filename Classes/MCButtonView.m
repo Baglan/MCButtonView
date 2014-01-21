@@ -17,7 +17,7 @@
 
 @implementation MCButtonView
 
-+ (void)wrapView:(UIView *)view block:(void (^)())block
++ (MCButtonView *)wrapView:(UIView *)view block:(void (^)())block
 {
     CGRect frame = view.frame;
     UIView * superView = view.superview;
@@ -32,6 +32,8 @@
     // Replace existing view with the new MCButtonView
     [buttonView addSubview:view];
     [superView addSubview:buttonView];
+    
+    return buttonView;
 }
 
 - (void)tapped

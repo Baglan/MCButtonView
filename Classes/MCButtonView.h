@@ -10,6 +10,7 @@
 
 @interface MCButtonView : UIView
 
-+ (void)wrapView:(UIView *)view block:(void (^)())block;
++ (MCButtonView *)wrapView:(UIView *)view block:(void (^)())block;
+- (void)tapped;
 
 @end
