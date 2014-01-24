@@ -23,7 +23,7 @@
     UIView * superView = view.superview;
     
     // Create a MCButtonView with the dimensions of the original view
-    MCButtonView * buttonView = [[MCButtonView alloc] initWithFrame:frame];
+    MCButtonView * buttonView = [[[self class] alloc] initWithFrame:frame];
     buttonView.block = block;
     [view removeFromSuperview];
     frame.origin = CGPointZero;
